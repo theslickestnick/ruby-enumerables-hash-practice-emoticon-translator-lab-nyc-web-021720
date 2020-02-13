@@ -1,10 +1,14 @@
 require 'yaml'
-require "pry"
+require 'pry'
+
 def load_library(yml_file)
-  emoticons = {:get_meaning => {}, :get_emoticon => {}}
-  emoticons = YAML.load_file(yml_file)
+  list_of_emoticons = {:get_meaning => {}, :get_emoticon => {}}
+  list_of_emoticons = YAML.load_file(yml_file)
   binding.pry
-  emoticons
+  list_of_emoticons.each do |emotion, emoticon_set|
+    emoticon_set.each do |emoticon|
+    end
+  end
 end
 
 def get_japanese_emoticon
