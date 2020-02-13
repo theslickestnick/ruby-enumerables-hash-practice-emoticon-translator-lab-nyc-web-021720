@@ -4,7 +4,7 @@ require 'pry'
 def load_library(yml_file)
   list_of_emoticons = {:get_meaning => {}, :get_emoticon => {}}
   list_of_emoticons = YAML.load_file(yml_file)
-  binding.pry
+  #binding.pry
   list_of_emoticons.each do |emotion, emoticon_set|
     emoticon_set.each do |emoticon|
     end
