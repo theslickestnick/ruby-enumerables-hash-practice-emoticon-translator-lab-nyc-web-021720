@@ -1,7 +1,9 @@
 require "pry"
 
 def load_library(yml_file)
-  japanese_emoticons = {:get_meaning => {}, :get_emoticon => {}}
+  require 'yml_file'
+  # japanese_emoticons = {:get_meaning => {}, :get_emoticon => {}}
+  japanese_emoticon = yml_file.load_file('emoticons.yml')
 end
 
 def get_japanese_emoticon
