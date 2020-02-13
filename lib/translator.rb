@@ -1,8 +1,10 @@
 require 'YAML'
 
 def load_library(yml_file)
-  # japanese_emoticons = {:get_meaning => {}, :get_emoticon => {}}
-  japanese_emoticon = YAML.load_file(yml_file)
+  require 'yaml'
+  emoticons = {}
+  emoticons = YAML.load_file('emoticons.yml')
+  puts emoticons.inspect
 end
 
 def get_japanese_emoticon
