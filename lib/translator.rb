@@ -9,6 +9,7 @@ def load_library(yml_file)
     #binding.pry
     result[:get_emoticon][associated_emoticons[0]] = associated_emoticons[1]
   end
+  result
 end
 
 def get_japanese_emoticon
