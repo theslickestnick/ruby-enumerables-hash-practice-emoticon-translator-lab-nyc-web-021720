@@ -1,4 +1,4 @@
-require yaml
+require 'yaml'
 
 def load_library(yml_file)
   emoticons = {}
