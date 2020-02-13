@@ -1,5 +1,5 @@
 require 'yaml'
-
+require "pry"
 def load_library(yml_file)
   emoticons = {}
   emoticons = YAML.load_file(yml_file)
