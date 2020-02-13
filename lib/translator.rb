@@ -7,9 +7,7 @@ def load_library(yml_file)
   emoticon_set.each do |emotion, associated_emoticons|
     result[:get_meaning][associated_emoticons[1]] = emotion
     #binding.pry
-      emoticon_set.each do |associated_emoticons|
-        result[:get_emoticon][associated_emoticons[0]] = associated_emoticons[1]
-    end
+    result[:get_emoticon][associated_emoticons[0]] = associated_emoticons[1]
   end
 end
 
