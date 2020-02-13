@@ -1,8 +1,8 @@
 require "pry"
 
 def load_library(yml)
-  require 'emoticons'
-  japanese_emoticons = emoticons.load_file('emoticons.yml')
+  require 'yml'
+  japanese_emoticons = yml.load_file('emoticons.yml')
   # puts japanese_emoticons.inspect
 end
 
