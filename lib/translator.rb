@@ -1,7 +1,7 @@
 require "pry"
 
 def load_library(yml_file)
-
+  return hash.new
 end
 
 def get_japanese_emoticon
