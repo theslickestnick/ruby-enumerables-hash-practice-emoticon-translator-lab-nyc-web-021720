@@ -13,7 +13,8 @@ def load_library(yml_file)
 end
 
 def get_japanese_emoticon(yml_file, emoticon)
-  load_library(yml_file)
+  total_set_of_emoticons = load_library(yml_file)
+
   # total_emoticon_set.each do |emotion, associated_emoticons|
     binding.pry
   # end
