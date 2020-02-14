@@ -18,8 +18,8 @@ def get_japanese_emoticon(yml_file, emoticon)
     if emoticon == western_emoticon
       return japanese_emoticon
     else
-  binding.pry
-    end 
+  #binding.pry
+    end
   end
 end
 
