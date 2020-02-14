@@ -19,8 +19,8 @@ def get_japanese_emoticon(yml_file, emoticon)
       return japanese_emoticon
     else
   binding.pry
+    end 
   end
-  japanese_emoticon
 end
 
 def get_english_meaning
