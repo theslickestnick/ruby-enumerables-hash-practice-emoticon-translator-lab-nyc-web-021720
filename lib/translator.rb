@@ -18,11 +18,10 @@ def get_japanese_emoticon(yml_file, emoticon)
     if emoticon == western_emoticon
       return japanese_emoticon
     else
-      return "Sorry, that emoticon was not found"
   #binding.pry
     end
   end
-
+  return "Sorry, that emoticon was not found"
 end
 
 def get_english_meaning
