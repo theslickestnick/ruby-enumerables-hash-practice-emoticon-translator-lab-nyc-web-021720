@@ -29,7 +29,7 @@ def get_english_meaning(yml_file, emoticon)
   total_set_of_emoticons[:get_meaning].each do |japanese_emoticon, emotion|
     binding.pry
 
-    if emoticon == japenese_emoticon
+    if emoticon == japanese_emoticon
       return emotion
     else
     end
