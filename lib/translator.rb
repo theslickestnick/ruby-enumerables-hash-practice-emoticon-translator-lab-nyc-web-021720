@@ -18,7 +18,7 @@ def get_japanese_emoticon(yml_file, emoticon)
     emoticon == western_emoticon ? japanese_emoticon : nil
   binding.pry
   end
-
+  
 end
 
 def get_english_meaning
