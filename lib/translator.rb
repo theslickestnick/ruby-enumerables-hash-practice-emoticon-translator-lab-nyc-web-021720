@@ -13,7 +13,9 @@ def load_library(yml_file)
 end
 
 def get_japanese_emoticon(yml_file, emoticon)
-  load_library(yml_file)
+  total_emoticon_set = load_library(yml_file)
+  
+
 end
 
 def get_english_meaning
