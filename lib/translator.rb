@@ -13,10 +13,10 @@ def load_library(yml_file)
 end
 
 def get_japanese_emoticon(yml_file, emoticon)
-  total_emoticon_set = load_library(yml_file)
-  total_emoticon_set.each do |emotion, associated_emoticons|
+  load_library(yml_file)
+  # total_emoticon_set.each do |emotion, associated_emoticons|
     binding.pry
-  end
+  # end
     # total_emoticon_set[:get]
 end
 
