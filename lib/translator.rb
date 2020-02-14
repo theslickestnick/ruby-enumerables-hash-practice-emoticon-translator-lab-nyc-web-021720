@@ -12,7 +12,7 @@ def load_library(yml_file)
   result
 end
 
-def get_japanese_emoticon
+def get_japanese_emoticon(yml_file, emoticon)
 
 end
 
